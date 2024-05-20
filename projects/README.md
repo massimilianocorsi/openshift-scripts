@@ -7,7 +7,7 @@ This script is designed to delete OpenShift projects that are stuck in the "Term
 ### Option 1: Execute Using ./deleteprojectterminatingstatus.sh
 1. Ensure the script has execution permissions. If not, grant execution permission using the command:
    ```
-   chmod +x deleteprojectterminatingstatus.sh
+   chmod +x delete_terminating_projects.sh
    ```
 2. Execute the script using the command:
    ```
@@ -23,13 +23,13 @@ for ns in $(oc get projects | awk '/Terminating/{ print $1 }') ; do oc get ns $n
 ### Option 3: Download using curl
 You can download the script using `curl` with the following command:
 ```bash
-curl -O https://raw.githubusercontent.com/massimilianocorsi/openshift-projects-delete/main/deleteprojectterminatingstatus.sh
+curl -O https://raw.githubusercontent.com/massimilianocorsi/openshift-projects-delete/main/delete_terminating_projects.sh
 ```
 
 ### Option 4: Download using wget
 Alternatively, you can use `wget` to download the script:
 ```bash
-wget https://raw.githubusercontent.com/massimilianocorsi/openshift-projects-delete/main/deleteprojectterminatingstatus.sh
+wget https://raw.githubusercontent.com/massimilianocorsi/openshift-projects-delete/main/delete_terminating_projects.sh
 ```
 
 ## Note
