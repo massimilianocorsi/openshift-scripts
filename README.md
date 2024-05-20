@@ -41,48 +41,4 @@ Each script is located in the `scripts` directory and can be executed independen
 ## Scripts
 
 ### Elasticsearch Index Deletion Script
-
-This script automates the deletion of specific Elasticsearch indices in an OpenShift environment. It processes indices related to `app`, `infra`, and `audit`, calculates half of the indices for each category, and deletes those indices.
-
-#### Usage
-
-1. Make the script executable:
-   ```bash
-   chmod +x cleanup-elasticsearch-index.sh
-   ```
-
-2. Run the script:
-   ```bash
-   ./cleanup-elasticsearch-index.sh
-   ```
-
-#### Example Output
-
-```bash
-Element: app, Count: 10, Half Count: 5
-Deleting index: app-index-1
-Deleting index: app-index-2
-Deleting index: app-index-3
-Deleting index: app-index-4
-Deleting index: app-index-5
-Element: infra, Count: 8, Half Count: 4
-Deleting index: infra-index-1
-Deleting index: infra-index-2
-Deleting index: infra-index-3
-Deleting index: infra-index-4
-Element: audit, Count: 6, Half Count: 3
-Deleting index: audit-index-1
-Deleting index: audit-index-2
-Deleting index: audit-index-3
-```
-
-## Contributing
-
-We welcome contributions to this repository! If you have a script that you believe would be useful to others, please feel free to submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Questo `README.md` fornisce una panoramica del repository, i requisiti, le istruzioni generali per l'uso degli script, dettagli su uno script specifico (in questo caso lo script per la cancellazione degli indici Elasticsearch) e informazioni su come contribuire al progetto. Puoi adattare e aggiungere informazioni man mano che aggiungi nuovi script al repository.
+https://github.com/massimilianocorsi/openshift-scripts/blob/main/README-cleanup-elasticsearch-index.md
