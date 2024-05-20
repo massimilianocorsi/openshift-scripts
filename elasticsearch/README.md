@@ -1,4 +1,3 @@
-```markdown
 # Elasticsearch Index Deletion Script
 
 This Bash script automates the deletion of specific Elasticsearch indices in an OpenShift environment. The script processes indices related to `app`, `infra`, and `audit`, calculates half of the indices for each category, and then deletes those indices.
@@ -63,7 +62,3 @@ Deleting index: audit-index-3
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Adesso puoi copiare e incollare questo testo direttamente in un file `README.md`.
-
