@@ -5,7 +5,7 @@ Welcome to the OpenShift Scripts Collection repository! This repository contains
 
 ## Contents
 
-- [Elasticsearch Index Deletion Script](cleanup-elasticsearch-index.sh): Automates the deletion of specific Elasticsearch indices based on predefined criteria.
+- [Elasticsearch Index Deletion Script](elasticsearch/cleanup-elasticsearch-index.sh): Automates the deletion of specific Elasticsearch indices based on predefined criteria.
 
 ## Prerequisites
 
