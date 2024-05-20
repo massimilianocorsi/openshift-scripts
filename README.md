@@ -6,7 +6,8 @@ Welcome to the OpenShift Scripts Collection repository! This repository contains
 
 - [Elasticsearch Scripts](elasticsearch/README.md)
 - [Project Management Scripts](projects/README.md)
-
+- [Networking Scripts](networking/README.md)
+  
 ## Prerequisites
 
 - OpenShift CLI (`oc`) installed and configured.
