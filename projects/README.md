@@ -1,4 +1,4 @@
-# openshift-projects-delete
+# Delete terminating Projects
 
 ## Script Description
 This script is designed to delete OpenShift projects that are stuck in the "Terminating" status. It retrieves projects in the "Terminating" status, retrieves their namespace details in JSON format, removes occurrences of `"kubernetes"` from the JSON, and sends a PUT request to finalize the deletion of the namespace.
