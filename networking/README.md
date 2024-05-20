@@ -1,4 +1,3 @@
-```markdown
 # Networking Scripts
 
 This directory contains scripts for network-related tasks in an OpenShift environment.
@@ -59,4 +58,4 @@ node2
 - Ensure the script has the correct permissions and the OpenShift CLI is properly configured.
 - Be cautious when running the script in a production environment as it can generate a significant amount of data.
 - Configure proxy ENV
-```
+
