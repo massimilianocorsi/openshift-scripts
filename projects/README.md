@@ -11,7 +11,7 @@ This script is designed to delete OpenShift projects that are stuck in the "Term
    ```
 2. Execute the script using the command:
    ```
-   ./deleteprojectterminatingstatus.sh
+   ./delete_terminating_projects.sh
    ```
 
 ### Option 2: Execute from Shell
